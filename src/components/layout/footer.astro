@@ -1,0 +1,51 @@
+---
+import { siteConfig } from "@/config/site";
+import { cn } from "@/lib/utils";
+import { Icon } from "astro-icon";
+import { ThemeToggle } from "@/components/theme-toggle";
+
+type Props = {
+  className?: string;
+};
+
+const { className } = Astro.props;
+---
+<style>
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+  }
+</style>
+
+<footer class={cn(className)}>
+  <div
+    class="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0"
+  >
+    <div
+      class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0"
+    >
+      <a href="/" aria-label="Astronomy homepage">
+        <Icon name="ant-design:code-filled" class="size-8" /></a
+      >
+
+      <p class="text-center text-sm leading-loose md:text-left balance-text">
+       Creado por{" "}
+        <a
+          href="https://www.linkedin.com/in/isaac-escobarg/"
+          target="_blank"
+          rel="noreferrer"
+          class="font-medium underline underline-offset-4"
+        >
+        Isaac Escobar G.
+        </a>
+       
+      </p>
+    </div>
+
+    <ThemeToggle client:idle />
+  </div>
+</footer>

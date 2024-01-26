@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="en"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/jpg" href="/favicon-16x16.png"><meta name="generator" content="Astro v4.2.4"><!-- Font preloads --><link rel="preload" href="/fonts/calsans-semibold.woff2" as="font" type="font/woff2" crossorigin><!-- Canonical URL --><link rel="canonical" href="https://codemanpty.com/blog/data-breach/"><!-- Primary Meta Tags --><title>¿Qué es un Data Breach?</title><meta name="title" content="¿Qué es un Data Breach?"><meta name="description" content="Las Consecuencias de un Data Breach"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://codemanpty.com/blog/data-breach/"><meta property="og:title" content="¿Qué es un Data Breach?"><meta property="og:description" content="Las Consecuencias de un Data Breach"><meta property="og:image" content="https://codemanpty.com/og.jpg"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://codemanpty.com/blog/data-breach/"><meta property="twitter:title" content="¿Qué es un Data Breach?"><meta property="twitter:description" content="Las Consecuencias de un Data Breach"><meta property="twitter:image" content="https://codemanpty.com/og.jpg"><!-- Dark mode with prevent flickering flash between navigations --><script>
+const setDarkMode = () => {
+  const theme = (() => {
+    if (
+      typeof localStorage !== "undefined" &&
+      localStorage.getItem("theme")
+    ) {
+      return localStorage.getItem("theme");
+    }
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    }
+    return "light";
+  })();
+
+  if (theme === "light") {
+    document.documentElement.classList.remove("dark");
+  } else {
+    document.documentElement.classList.add("dark");
+  }
+  window.localStorage.setItem("theme", theme);
+};
+
+setDarkMode();
+document.addEventListener("astro:after-swap", setDarkMode);
+</script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><style>@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0}}@keyframes astroFadeOut{to{opacity:0}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media (prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}[data-astro-transition-scope]{animation:none!important}}
+.glassmorphism[data-astro-cid-i47g4raq]{background:#ffffff26;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:20px;width:200px}
+</style>
+<link rel="stylesheet" href="/_astro/login.AZKKIKsB.css" /><script type="module" src="/_astro/hoisted.l-JsOPk0.js"></script><style>[data-astro-transition-scope="astro-ks7i2azy-1"] { view-transition-name: astro-ks7i2azy-1; }@layer astro { ::view-transition-old(astro-ks7i2azy-1) { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }::view-transition-new(astro-ks7i2azy-1) { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back]::view-transition-old(astro-ks7i2azy-1) { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back]::view-transition-new(astro-ks7i2azy-1) { 
+	animation-name: astroFadeIn, astroSlideFromLeft; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-ks7i2azy-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-ks7i2azy-1"] { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-ks7i2azy-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-ks7i2azy-1"] { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-ks7i2azy-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-ks7i2azy-1"] { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-ks7i2azy-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-ks7i2azy-1"] { 
+	animation-name: astroFadeIn, astroSlideFromLeft; }</style><style>[data-astro-transition-scope="astro-qiq5336j-2"] { view-transition-name: category-data-breach; }@layer astro { ::view-transition-old(category-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(category-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(category-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(category-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-qiq5336j-2"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-qiq5336j-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-qiq5336j-2"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-qiq5336j-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-qiq5336j-2"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-qiq5336j-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-qiq5336j-2"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-qiq5336j-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style><style>[data-astro-transition-scope="astro-phjumi34-3"] { view-transition-name: img-data-breach; }@layer astro { ::view-transition-old(img-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(img-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(img-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(img-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-phjumi34-3"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-phjumi34-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-phjumi34-3"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-phjumi34-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-phjumi34-3"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-phjumi34-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-phjumi34-3"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-phjumi34-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style><style>[data-astro-transition-scope="astro-f3cm6adb-4"] { view-transition-name: date-data-breach; }@layer astro { ::view-transition-old(date-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(date-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(date-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(date-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-f3cm6adb-4"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-f3cm6adb-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-f3cm6adb-4"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-f3cm6adb-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-f3cm6adb-4"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-f3cm6adb-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-f3cm6adb-4"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-f3cm6adb-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style><style>[data-astro-transition-scope="astro-aknxxcg2-5"] { view-transition-name: title-data-breach; }@layer astro { ::view-transition-old(title-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(title-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(title-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(title-data-breach) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-aknxxcg2-5"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-aknxxcg2-5"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-aknxxcg2-5"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-aknxxcg2-5"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-aknxxcg2-5"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-aknxxcg2-5"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-aknxxcg2-5"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-aknxxcg2-5"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style></head> <body class="flex flex-col min-h-screen">  <header class="flex items-center h-16 md:h-18 z-50 sticky top-0 bg-background"> <div class="relative container flex items-center justify-between w-full"> <div class="flex items-center gap-6 md:gap-8 lg:gap-10"> <a href="/" class="hidden items-center space-x-2 md:flex"> <svg viewBox="0 0 1024 1024" class="size-8" astro-icon="ant-design:code-filled"><path fill="currentColor" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM513.1 518.1l-192 161c-5.2 4.4-13.1.7-13.1-6.1v-62.7c0-2.3 1.1-4.6 2.9-6.1L420.7 512l-109.8-92.2a7.63 7.63 0 0 1-2.9-6.1V351c0-6.8 7.9-10.5 13.1-6.1l192 160.9c3.9 3.2 3.9 9.1 0 12.3zM716 673c0 4.4-3.4 8-7.5 8h-185c-4.1 0-7.5-3.6-7.5-8v-48c0-4.4 3.4-8 7.5-8h185c4.1 0 7.5 3.6 7.5 8v48z"/></svg> <span class="hidden font-bold sm:inline-block"> CodeMan </span> </a> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var b=Object.defineProperty;var f=(c,o,i)=>o in c?b(c,o,{enumerable:!0,configurable:!0,writable:!0,value:i}):c[o]=i;var l=(c,o,i)=>(f(c,typeof o!="symbol"?o+"":o,i),i);var p;{let c={0:t=>m(t),1:t=>i(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(i(t)),5:t=>new Set(i(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t)},o=t=>{let[e,r]=t;return e in c?c[e](r):void 0},i=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([e,r])=>[e,o(r)]));customElements.get("astro-island")||customElements.define("astro-island",(p=class extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var d;if(!this.hydrator||!this.isConnected)return;let e=(d=this.parentElement)==null?void 0:d.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let r=this.querySelectorAll("astro-slot"),a={},h=this.querySelectorAll("template[data-astro-template]");for(let n of h){let s=n.closest(this.tagName);s!=null&&s.isSameNode(this)&&(a[n.getAttribute("data-astro-template")||"default"]=n.innerHTML,n.remove())}for(let n of r){let s=n.closest(this.tagName);s!=null&&s.isSameNode(this)&&(a[n.getAttribute("name")||"default"]=n.innerHTML)}let u;try{u=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(n){let s=this.getAttribute("component-url")||"<unknown>",y=this.getAttribute("component-export");throw y&&(s+=` (export ${y})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),n),n}await this.hydrator(this)(this.Component,u,a,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),r.disconnect(),this.childrenConnectedCallback()},r=new MutationObserver(()=>{var a;((a=this.lastChild)==null?void 0:a.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});r.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}start(){let e=JSON.parse(this.getAttribute("opts")),r=this.getAttribute("client");if(Astro[r]===void 0){window.addEventListener(`astro:${r}`,()=>this.start(),{once:!0});return}Astro[r](async()=>{let a=this.getAttribute("renderer-url"),[h,{default:u}]=await Promise.all([import(this.getAttribute("component-url")),a?import(a):()=>()=>{}]),d=this.getAttribute("component-export")||"default";if(!d.includes("."))this.Component=h[d];else{this.Component=h;for(let n of d.split("."))this.Component=this.Component[n]}return this.hydrator=u,this.hydrate},e,this)}attributeChangedCallback(){this.hydrate()}},l(p,"observedAttributes",["props"]),p))}})();</script><astro-island uid="Zwvq9E" prefix="r1" component-url="/_astro/sheet-mobile-nav.kbWB6CtK.js" component-export="SheetMobileNav" renderer-url="/_astro/client.U-DFgc5E.js" props="{&quot;mainNavItems&quot;:[1,[[0,{&quot;title&quot;:[0,&quot;Blog&quot;],&quot;href&quot;:[0,&quot;/blog&quot;]}]]],&quot;sidebarNavItems&quot;:[1,[[0,{&quot;title&quot;:[0,&quot;Contacto&quot;],&quot;items&quot;:[1,[[0,{&quot;title&quot;:[0,&quot;Threads (@isaac.escobarg)&quot;],&quot;href&quot;:[0,&quot;https://www.threads.net/@isaac.escobarg&quot;],&quot;description&quot;:[0,&quot;Sígueme para recibir las últimas actualizaciones y noticias.&quot;],&quot;external&quot;:[0,true]}],[0,{&quot;title&quot;:[0,&quot;Linkedin&quot;],&quot;href&quot;:[0,&quot;https://www.linkedin.com/in/isaac-escobarg/&quot;],&quot;description&quot;:[0,&quot;Las conexiones van más allá de los enlaces&quot;],&quot;external&quot;:[0,true]}]]]}],[0,{&quot;title&quot;:[0,&quot;Proyectos&quot;],&quot;items&quot;:[1,[[0,{&quot;title&quot;:[0,&quot;Correo Seguro&quot;],&quot;href&quot;:[0,&quot;/Passwordseguros&quot;],&quot;description&quot;:[0,&quot;Comprueba si tu Correo fue Víctima de un Databreaches&quot;]}],[0,{&quot;title&quot;:[0,&quot;Dibujo en Línea&quot;],&quot;href&quot;:[0,&quot;/#examples/ecommerce&quot;],&quot;description&quot;:[0,&quot;permita cargar dibujos realizados por niños y luego animarlos con IA&quot;],&quot;disabled&quot;:[0,true]}]]]}]]],&quot;slot&quot;:[0,&quot;mobile-nav-header&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;SheetMobileNav&quot;,&quot;value&quot;:true}" await-children=""><button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 mr-2 h-8 px-1.5 md:hidden" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1R0:" data-state="closed"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" focusable="false" aria-hidden="true" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" class="size-5"><path fill-rule="evenodd" d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" stroke="currentColor" fill="currentColor" stroke-width="0px"></path></svg><span class="sr-only">Toggle Menu</span></button><!--astro:end--></astro-island> <div class="hidden md:flex"> <astro-island uid="Z1OMpps" prefix="r0" component-url="/_astro/main-navigation-menu.c0Be7orm.js" component-export="MainNavigationMenu" renderer-url="/_astro/client.U-DFgc5E.js" props="{&quot;slot&quot;:[0,&quot;left-header&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;MainNavigationMenu&quot;,&quot;value&quot;:true}" await-children=""><nav aria-label="Main" data-orientation="horizontal" dir="ltr" class="relative z-10 flex max-w-max flex-1 items-center justify-center"><div style="position:relative"><ul data-orientation="horizontal" class="group flex flex-1 list-none items-center justify-center space-x-1" dir="ltr"><li><button id="radix-:r0R0:-trigger-radix-:r0Rb:" data-state="closed" aria-expanded="false" aria-controls="radix-:r0R0:-content-radix-:r0Rb:" class="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 group" data-radix-collection-item="">Contacto<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down relative top-[1px] ml-1 size-3 transition duration-200 group-data-[state=open]:rotate-180" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></li><li><button id="radix-:r0R0:-trigger-radix-:r0Rj:" data-state="closed" aria-expanded="false" aria-controls="radix-:r0R0:-content-radix-:r0Rj:" class="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 group" data-radix-collection-item="">Proyectos<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down relative top-[1px] ml-1 size-3 transition duration-200 group-data-[state=open]:rotate-180" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></li><li><a href="/blog" class="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">Blog</a></li></ul></div><div class="absolute left-0 top-full flex justify-center"></div></nav><!--astro:end--></astro-island> </div> </div> <!-- logo mobile center --> <div class="absolute top-1/2 left-1/2 -translate-x-4 -translate-y-4 md:hidden"> <a href="/" aria-label="Astronomy homepage"> <svg viewBox="0 0 1024 1024" class="size-8" astro-icon="ant-design:code-filled"><path fill="currentColor" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM513.1 518.1l-192 161c-5.2 4.4-13.1.7-13.1-6.1v-62.7c0-2.3 1.1-4.6 2.9-6.1L420.7 512l-109.8-92.2a7.63 7.63 0 0 1-2.9-6.1V351c0-6.8 7.9-10.5 13.1-6.1l192 160.9c3.9 3.2 3.9 9.1 0 12.3zM716 673c0 4.4-3.4 8-7.5 8h-185c-4.1 0-7.5-3.6-7.5-8v-48c0-4.4 3.4-8 7.5-8h185c4.1 0 7.5 3.6 7.5 8v48z"/></svg> </a> </div> <nav> <script>(()=>{var i=t=>{let e=async()=>{await(await t())()};"requestIdleCallback"in window?window.requestIdleCallback(e):setTimeout(e,200)};(self.Astro||(self.Astro={})).idle=i;window.dispatchEvent(new Event("astro:idle"));})();</script><astro-island uid="1Kpznx" prefix="r2" component-url="/_astro/theme-toggle.1biW-uhl.js" component-export="ThemeToggle" renderer-url="/_astro/client.U-DFgc5E.js" props="{}" ssr="" client="idle" opts="{&quot;name&quot;:&quot;ThemeToggle&quot;,&quot;value&quot;:true}" await-children=""><div></div><!--astro:end--></astro-island> </nav> </div> </header> <main class="">  <div class="relative container max-w-screen-md py-10"> <a href="/blog" class="items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 absolute left-[-200px] top-10 hidden xl:inline-flex text-muted-foreground" data-astro-transition-scope="astro-ks7i2azy-1"> <svg viewBox="0 0 24 24" class="mr-2 size-4" astro-icon="lucide:chevron-left"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 18-6-6 6-6"/></svg>
+Blog
+</a> <article class="prose dark:prose-invert max-w-none"> <a href="/blog/category/Seguridad"> <div class="inline-flex items-center border px-2.5 py-0.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80 rounded-md capitalize">Seguridad</div> </a> <img src="/blog-placeholder-3.jpg" class="rounded-xl overflow-hidden my-6" alt="" data-astro-transition-scope="astro-phjumi34-3" width="1020" height="510" loading="lazy" decoding="async"> <div class="flex items-center justify-between"> <span class="font-medium text-muted-foreground" data-astro-transition-scope="astro-f3cm6adb-4"> Jan 25, 2024  </span> </div> <h1 class="font-heading text-4xl my-4" data-astro-transition-scope="astro-aknxxcg2-5"> ¿Qué es un Data Breach? </h1> <p>Las Consecuencias de un Data Breach</p> <hr class="my-6">  <p>Un data breach, o violación de datos, se produce cuando información confidencial es accedida, divulgada, alterada o destruida sin autorización. Esto puede involucrar datos personales, financieros, médicos o empresariales. Los ciberdelincuentes buscan constantemente aprovechar vulnerabilidades en sistemas de seguridad para obtener acceso no autorizado a esta información sensible.</p>
+<p>Ejemplos Notables de Data Breaches:</p>
+<p>Facebook-Cambridge Analytica (2018): Aunque no fue un data breach tradicional, fue un incidente de privacidad significativo. La consultora política Cambridge Analytica recopiló ilegalmente datos de millones de usuarios de Facebook para influir en campañas políticas.</p>
+<p>Equifax (2017): Uno de los mayores data breaches de la historia, afectó a la agencia de informes de crédito Equifax. La información personal de aproximadamente 147 millones de personas, incluyendo nombres, números de seguro social y fechas de nacimiento, fue comprometida.</p>
+<p>Yahoo (2013-2014): En 2016, Yahoo reveló que había sufrido dos ataques importantes en 2013 y 2014. Estos ataques afectaron a más de mil millones de cuentas, comprometiendo información como nombres, direcciones de correo electrónico, números de teléfono y, en algunos casos, preguntas y respuestas de seguridad.</p>
+<p>Marriott International (2018): La cadena hotelera Marriott experimentó un data breach que afectó a aproximadamente 500 millones de huéspedes. La información comprometida incluía detalles personales, números de pasaportes y, en algunos casos, datos de tarjetas de crédito.</p>
+<p>Target (2013): Durante la temporada de compras navideñas en 2013, Target sufrió un ataque que afectó a cerca de 40 millones de tarjetas de crédito y a la información personal de alrededor de 70 millones de clientes.</p>
+<p>Adobe (2013): Adobe experimentó un data breach que afectó a aproximadamente 38 millones de cuentas. La información comprometida incluía nombres de usuario, direcciones de correo electrónico y contraseñas cifradas.</p>  </article> </div>  </main> <footer class="" data-astro-cid-i47g4raq> <div class="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0" data-astro-cid-i47g4raq> <div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0" data-astro-cid-i47g4raq> <a href="/" aria-label="Astronomy homepage" data-astro-cid-i47g4raq> <svg viewBox="0 0 1024 1024" data-astro-cid-i47g4raq class="size-8" astro-icon="ant-design:code-filled"><path fill="currentColor" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM513.1 518.1l-192 161c-5.2 4.4-13.1.7-13.1-6.1v-62.7c0-2.3 1.1-4.6 2.9-6.1L420.7 512l-109.8-92.2a7.63 7.63 0 0 1-2.9-6.1V351c0-6.8 7.9-10.5 13.1-6.1l192 160.9c3.9 3.2 3.9 9.1 0 12.3zM716 673c0 4.4-3.4 8-7.5 8h-185c-4.1 0-7.5-3.6-7.5-8v-48c0-4.4 3.4-8 7.5-8h185c4.1 0 7.5 3.6 7.5 8v48z"/></svg></a> <p class="text-center text-sm leading-loose md:text-left balance-text" data-astro-cid-i47g4raq>
+Creado por  <a href="https://www.linkedin.com/in/isaac-escobarg/" target="_blank" rel="noreferrer" class="font-medium underline underline-offset-4" data-astro-cid-i47g4raq>
+Isaac Escobar G.
+</a> </p> </div> <astro-island uid="ZISgjT" prefix="r4" component-url="/_astro/theme-toggle.1biW-uhl.js" component-export="ThemeToggle" renderer-url="/_astro/client.U-DFgc5E.js" props="{&quot;data-astro-cid-i47g4raq&quot;:[0,true]}" ssr="" client="idle" opts="{&quot;name&quot;:&quot;ThemeToggle&quot;,&quot;value&quot;:true}" await-children=""><div></div><!--astro:end--></astro-island> </div> </footer>   </body></html>
