@@ -68,8 +68,8 @@ const MyComponent = () => {
           <Button type="submit" onClick={fetchData} disabled={isLoading}>Consultar</Button>
         </div>
 
-        {emailError && <p className="text-red-500">{emailError}</p>}
-        {isLoading && <p>Cargando...</p>}
+        {emailError && <p className="text-red-500 mt-4">{emailError}</p>}
+        {isLoading && <p className="mt-4">Cargando...</p>}
         
         {data && data.passwords.length > 0 ? (
           <div>
