@@ -51,7 +51,7 @@ const MyComponent = () => {
     try {
       setIsLoading(true);
 
-      const response = await axios.get(`https://us-central1-fair-catcher-343814.cloudfunctions.net/function-2?email=${email}`);
+      const response = await axios.get(`https://us-central1-fair-catcher-343814.cloudfunctions.net/function-3?email=${email}`);
       setData(response.data);
     } catch (error) {
       setError(error);
