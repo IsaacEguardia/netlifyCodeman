@@ -32,11 +32,11 @@ export const navMenuConfig: NavMenuConfig = {
         },
        
         {
-          title: "Dibujo en Línea",
-          href: "/#examples/ecommerce",
+          title: "Frecuencia Cardíaca",
+          href: "/frecuencia-cardiaca",
           description:
-            "permita cargar dibujos realizados por niños y luego animarlos con IA",
-          disabled: true,
+            "Mide tu frecuencia cardíaca fácilmente usando la cámara de tu dispositivo.",
+          disabled: false,
         }
       ],
     },
