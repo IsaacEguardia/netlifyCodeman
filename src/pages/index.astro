@@ -81,4 +81,23 @@ import Icon from "astro-icon";
        
     </div>
 </section>
+<section
+    id="frecuencia-cardiaca"
+    class="container max-w-[48rem] mx-auto py-12 px-6 text-center"
+  >
+    <h2 class="font-heading text-3xl md:text-4xl font-bold mb-6">
+      Medidor Online de Frecuencia Cardíaca
+    </h2>
+    <p class="mb-4 text-muted-foreground">
+      Coloca tu dedo sobre la cámara de tu dispositivo para medir tu frecuencia cardíaca en tiempo real.
+      La cámara detecta los cambios de color provocados por el flujo sanguíneo con cada latido.
+    </p>
+
+    <a
+      href="/frecuencia-cardiaca"
+      class={cn(buttonVariants({ size: "lg", variant: "outline" }))}
+    >
+      Ir al medidor
+    </a>
+  </section>
 </MainLayout>

@@ -1,0 +1,39 @@
+---
+import FaqSection from "@/components/faq-sectionfcardica";
+import MainLayout from "@/layouts/main-layout.astro";
+import Frecuenciacardiacacomp from "@/components/Frecuenciacardiaca";
+---
+
+<MainLayout
+  title="Medidor de Frecuencia Cardíaca"
+  description="Mide tu ritmo cardíaco fácilmente usando la cámara de tu dispositivo."
+  mainClass="min-h-screen container max-w-screen-md py-10"
+>
+  <section>
+    <div class="space-y-5 text-center mb-14">
+      <h1 class="font-heading text-4xl text-center">
+        Medidor de Frecuencia Cardíaca
+      </h1>
+      <p class="text-muted-foreground text-md max-w-xl mx-auto">
+      Coloca tu dedo sobre la cámara de tu dispositivo para medir tu frecuencia cardíaca en tiempo real. La cámara detecta los cambios de color provocados por el flujo sanguíneo con cada latido.
+      </p>
+    </div>
+    
+    <div class="space-y-6 text-center mb-10">
+      <Frecuenciacardiacacomp client:load />
+    </div>
+
+    <div class="space-y-6 text-center mb-4 max-w-lg mx-auto">
+      <p class="text-muted-foreground text-sm">
+        Tu privacidad es nuestra prioridad. Esta herramienta <strong>no guarda ni comparte</strong> tus datos personales.
+        Solo necesitas tu dedo y la cámara para realizar la medición.
+      </p>
+    </div>
+
+    <hr
+      class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" 
+    />
+
+    <FaqSection client:load />
+  </section>
+</MainLayout>
